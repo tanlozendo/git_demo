@@ -22,6 +22,22 @@ const greet =()=>{
 }
 
 
-const greet =()=>{
+const greet1=()=>{
     return "hello world"
 }
+
+// ES5
+ let cars = ["Toyota","Tesla","Volvo"]
+// for(let car of cars){
+//     console.log(car)
+//     if(car == "Tesla"){
+//         break
+//     }
+// }
+
+// ES6
+cars.forEach(car=>(
+    console.log(car)
+)
+    
+)
